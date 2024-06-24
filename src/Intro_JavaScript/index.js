@@ -1,1 +1,1 @@
-console.log("Mobashir");
+console.log("Mobashir has commenced learning JAVASCRIPT today on Monday that is 24 of June 2024 . stats are like this I've spent almost quater of my DAY . It was a fun Learning Exprecience in the Guidance of my Bhai jaan : Mohsin Haider. With the Help of easy to understand Java tutorial videos of Hitesh bhaiya ");
