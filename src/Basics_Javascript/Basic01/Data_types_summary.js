@@ -30,3 +30,22 @@ const myFunction = function (){
     console.log("OOOO Yeah!");
 }
 console.log( typeof myFunction);
+
+// ******************************++++++++++*****************************//
+//                                 Memory
+// Stack and Heap {Non Primitive}
+
+let myYoutubeName = "Mobashir's Youtube Channel"
+
+let anothername = "RareSigt"
+
+console.log(anothername);
+let userOne ={
+    email: "user@google.com"
+    upi : "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "Mobashir@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
