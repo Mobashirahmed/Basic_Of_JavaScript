@@ -23,13 +23,13 @@ console.log(myCreatedDate01.getTime());
 console.log(Date.now()); // only one of 'em can run
 console.log(Math.floor(Date.now()/1000));
 
-let newDate = new Date()
-console.log(newDate);
-// console.log(newDate.getMonth() + 1);
-// console.log(newDate.getFullYear());
-// hgthfgk
-// 
+let newDate = new Date() // new Date is an Object
+console.log(newDate); // Aaj ki tareekh print aa raha hai
+console.log(newDate.getMonth() + 1); // . dalte hi methods option menu open ho jayega, yahan pe humne +1 kiya hai chunki we add the exact month no. [e.g/ Jan→0, July→6]
+console.log(newDate.getDay()); // getMonth:month no. getDay => 1 , getFullYear => 2024
 
+//`${newDate.getDay()} and the time`
+// toLocaleString me aap ek object define karte hain
 newDate.toLocaleString('default',{
     weekday: "long",
     // timeZone: ''
