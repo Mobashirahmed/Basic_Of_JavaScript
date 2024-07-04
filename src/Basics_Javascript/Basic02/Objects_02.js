@@ -19,18 +19,22 @@ const regularUser = {
 }
 // yahan nesting ka kamal dekha. Hum yahan comma ka use karte hain scope ke inside objects ko separate karne ke liye.
 
-console.log(regularUser.userfullname.firstname);
+console.log(regularUser.userfullname.firstname); // yahan pe object targeting ki hai
 
 const maze1 = { 1: "d", 2: "g"} 
 const maze2 = { 7: "f", 4: "h"}
+
+console.log(maze1);
+console.log(maze2);
+
 const maze5 = { 5: "s", 5: "u"}
 
+const maze3 = { maze1, maze2}
+console.log(maze3);
 
 const maze4 = Object.assign({}, maze1, maze2, maze5)
 console.log(maze4);
 
-const maze3 = { maze1, maze2}
-console.log(maze3);
 
 const maze6 =  {...maze1, ...maze2}
 console.log(maze6);
@@ -92,3 +96,4 @@ console.log(Instructor);
     {},
     {}
 ]
+// JASON ek object scripting language for API. pahle XML ke daware yeh saare values dekha karte the 

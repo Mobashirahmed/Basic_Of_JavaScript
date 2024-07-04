@@ -16,6 +16,10 @@ const JSuser = {
 }
 
 console.log(typeof JSuser);
+
+// yahan humare pass objects ke keys access karne ke diff. syntax hai. Pahla hai .key aur dusara hai ["key"]
+// symbols ke liye [symbolcontainer] likh kar access karte hai
+
 console.log(JSuser .email);
 console.log(JSuser["email"]);
 console.log(JSuser[mySym]);
@@ -27,6 +31,8 @@ JSuser.email = "LOpazrazor@8ichat.com"
 
 console.log(JSuser);
 
+
+// Yaha pe Hitesh bhaiya ne kya samjhaya tha vah kuch behtar samajh nahi aaya tha!
 JSuser.greeting = function(){
     console.log(("Hellow Everyone"));
 }
