@@ -5,21 +5,21 @@
 const mySym = Symbol("Rarity")
 const JSuser = {
     name1: "Mobashir",
-    full: "Mobashir Ahmed",
+    fullName: "Mobashir Ahmed",
     name2:"Mohsin",
     [mySym]: "Rarity",
     age: 18,
     location: "Darbhanga",
     email: "Georgia@yahooo.com",
     isLoggedIn: false,
-    lastLoginDaya: ["Tuesday","Wednesday"]
+    lastLoginDay: ["Tuesday","Wednesday"]
 }
 
 console.log(typeof JSuser);
 console.log(JSuser .email);
 console.log(JSuser["email"]);
 console.log(JSuser[mySym]);
-console.log(JSuser["full"]);
+console.log(JSuser["fullName"]);
 
 JSuser.email = "LOpazrazor@8ichat.com"
 // Object.freeze(JSuser)

@@ -11,7 +11,7 @@ pwinderUser.isLoggedIn = true
 console.log(pwinderUser);
 
 const regularUser = {
-    email: "mohitlal.com",
+    email: "Mousekersize@mohitlal.com",
     userfullname: {
         firstname: "Mobashir",
         lastname:"Ahmed",
