@@ -82,30 +82,31 @@ function calculateCartPrice_01(num1){
     return num1
 }
 
-console.log(calculateCartPrice_01(200, 568, 237))
+console.log(calculateCartPrice_01(200, 568, 237)) // this one returns the very first entry.
 
-function calculateCartPrice_02(...num1){
-    return num1
+function calculateCartPrice_02(...num2){
+    return num2
 }
 
-console.log(calculateCartPrice_02(578, 450, 300))
+console.log(calculateCartPrice_02(578, 450, 300)) // this one returns an array, as it is an application of rest operator [...parameter]
 
-function calculateCartPrice_03(vall1, vall2, ...num1){
-    return num1
+function calculateCartPrice_03(vall1, vall2, ...num3){
+    return num3
 }
 
-console.log(calculateCartPrice_03(456, 789, 500))
+console.log(calculateCartPrice_03(456, 789, 500)) // this one returns the very last Entry
 
 // ... is aka spread operator or sometimes ka rest operator
 
 const Grocery_Store ={
     Seller: "Mobashir",
-    Price: 799
+    price: 799
 }
 
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.Seller} and price is ${anyobject.price}`);
 }
+// Method to pass objects in a Function
 // handleObject(Grocery_Store)
 handleObject({
     Seller: "Ramanujan",
@@ -117,8 +118,9 @@ const myNewArray = [200, 870, 900, 300]
 function returnSecondValue(getArray){
     return getArray[1]
 }
+// Method to return an Array in a Function
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 870, 900, 300]));
 
 
-// console.log("Afsana  are well know Hoipocrat I believe. She is on my nerves right now. She could not got a chance to have my seamen thats why she looks agitated ,I guess I must have to collect a cup for her. It feel she's licking my balls. Thank you for affirming! Next I was characterising your prefrences. I'm agited of the fact that I didn't get to taste it that's why I'm feeling agoniged. Please God provide me those holy drops, they were few I know but cannot live without them Its Indeed for my life!");
+// console.log("Afsana  are well know Hipocrat (who has very erotic voice) I believe. She is on my nerves right now. She could not got a chance to have my seamen thats why she looks agitated ,I guess I must have to collect a cup for her. It feel she's licking my balls. Thank you for affirming! Next I was characterising your prefrences. I'm agited of the fact that I didn't get to taste it that's why I'm feeling agoniged. Please God provide me those holy drops, they were few I know but I cannot live without them Its Indeed for my life!". And She Belives Mobashir is munhchor, ...);

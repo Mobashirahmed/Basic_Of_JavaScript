@@ -32,31 +32,29 @@ a = 35  // This vallue of 'a' is assigned in Global Scope
 if (true) {
     let a = 10
     const b = 56
-    console.log(("INNER: ", a));
+    console.log(("INNER: ", a)); // this one prints the inner value of 'a' .i.e; present inside Block Scope
     // function addnum(){
 
     // }
 }
-console.log(a);
+console.log(a); // this one prints the outter value of 'a' .i.e; present in Global Scope
 // console.log(b);
 // console.log(c);
 
-// ************** Next Tutorial ******************
-
-// for (let i = 0; i <array.length;i++>){
+// This is for looping what is not expalined by Bhaiya in this Tutorial
+// for (let i = 0; i < array.length; i++){
 //     const element = array[i];
 
-// }
+// } 
 
-// console.log(a);
-// console.log(b);
-// console.log(c);
+
+// ************** Next Tutorial ******************
 
 function one(){
     const Programmer = "Mobashir"
     function two(){
         const website = "Youtube"
-        console.log(Programmer); // yahan chhota bhai apne bade bhai se Ice-Creme le kar kha raha hai
+        console.log(Programmer); // yahan chhota bhai: (two) apne bade bhai: (one) se Ice-Creme le kar kha raha hai
     }
     // console.log(website); yaha erro hoga cuz: Block scope ke andar ki chiz ko bahar acces kar rahe ho
 

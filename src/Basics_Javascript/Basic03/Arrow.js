@@ -14,27 +14,27 @@ User.welcomeMessage()
 User.username = "Sam" // Here,We'd changed the context/value of username. Now this User will be welcomed
 User.welcomeMessage() // & this line will Execute the changed context result
 
-console.log(this); // this will return an empty object
+console.log(this); // this will return an empty object. And one more it is related to the Global Object . I came to know in a Browser `Window` is a global Object.
 
 function afsana(){
     // console.log(this); // Here We're printing this inside a node Environment
     let Loves = "Mobashir"
-    console.log(this.username);
+    console.log(this.Loves);
     // console.log(this);
 }
 
-afsana()
+afsana() // this will also returns an undefined value.
 
-// const coffee =() => { 
-//     let username = "Afsana"
-//     console.log(this);
-// }
+const coffee = () => { 
+    let lovelyuser = "Afsana"
+    console.log(this.lovelyuser);
+}
 
-// coffee()
+coffee() // output undefined aa raha hai cuz of Arrow funtion somehow
 // arrow function ke app yeh this use nahi kar sakte aur regular funstions me aap use kar sakte hain , Generally diff. karne waqt yahi reply aata hai
 
 
-//Arrow Functions ke bare me aur Discussion
+//****************** Arrow Functions ke bare me aur Discussion *****************************// 
 
 const addTwo = (num1, num2) => {
     return num1 + num2 // yeh explicit return hai
