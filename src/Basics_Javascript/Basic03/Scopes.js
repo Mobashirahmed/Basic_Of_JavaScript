@@ -1,5 +1,6 @@
 //Scope{} it begins with let var const
 // var c = 790
+// yaha if ke baad jo scope hai vah Block Scope kahlati hai
 
 if (true) {
     let a = 10
@@ -26,23 +27,28 @@ if (true) {
 console.log(c);
 
 // OR
-// if (true) {
-//     let a = 10
-//     const b = 56
-//     console.log(("INNER: ", a));
-//     // function addnum(){
 
-//     // }
-// }
+a = 35  // This vallue of 'a' is assigned in Global Scope 
+if (true) {
+    let a = 10
+    const b = 56
+    console.log(("INNER: ", a));
+    // function addnum(){
 
-// for (let i = 0; i <Array.length;i++) {
-//     const element = array[i];
-
-// }
-
-// console.log(a);
+    // }
+}
+console.log(a);
 // console.log(b);
 // console.log(c);
+
+for (let i = 0; i <array.length;i++) {
+    const element = array[i];
+
+}
+
+console.log(a);
+console.log(b);
+console.log(c);
 
 function one(){
     const Programmer =  "Mobashir"
