@@ -7,5 +7,3 @@
 ( ()=> {
     console.log(`DB DISCONNECTED ${name}` );
 } )("Indian Army Lieutenant Mobashir");
-
-// Arrow Function : ()=>

@@ -1,4 +1,5 @@
 //ab hum padhenge arrow funs. ES6 JS ke andar bhaut sare features leke aaye. We'll talk about 'this' key-word
+// Arrow Function : ()=>
 const User = {
     username: "Mobashir",
     price: 999.00,
