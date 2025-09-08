@@ -22,8 +22,8 @@ let userEmail;
 
 const heros = ["shaktiman", "Krish", "Doga"]
 {
-    name: "Mobashir",
-    age: 20,
+    name: "Mobashir";
+    age: 20
 }
 
 const myFunction = function (){
