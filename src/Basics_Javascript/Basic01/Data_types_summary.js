@@ -3,7 +3,7 @@
 // 7 categories: String [call back value], Number, Boolean, null, undefined [variable declared but value ain't decided], BigInt
 
 const score = 100 // [In Javascript , we don't need to define the data=type. And I've report weather Javascript is Static type or Dynamic type C.Lang.]
-const:number score = 334 // typescript close brother of Java script
+// const Score:Number = 334 // typescript close brother of Java script
 
 const isLoggedIn = false
 const outsideTemp = null
