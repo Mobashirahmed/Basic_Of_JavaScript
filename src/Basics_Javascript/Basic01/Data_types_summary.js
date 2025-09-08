@@ -42,7 +42,7 @@ let anothername = "RareSigt"
 console.log(anothername);
 let userOne ={
     email: "user@google.com"
-    upi : "user@ybl"
+    upi : "user@ybl",
 }
 let userTwo = userOne
 
